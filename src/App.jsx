@@ -8,7 +8,8 @@ import NotFoundPage from "./pages/NotFoundPage"
 import ChatbotComponent from "./components/Chatbot/ChatbotComponents"
 import Footer from "./components/Footer/Footer"
 import { useState } from "react"
-import DeveloperinfoPopup from "./components/Developerinfo/DeveloperInfoPopup"
+import DeveloperinfoPopup from "./components/Devoloperinfo/DeveloperInfoPopup"
+
 
 const App = () => {
 
