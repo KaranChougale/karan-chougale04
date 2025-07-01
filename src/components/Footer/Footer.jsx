@@ -1,6 +1,6 @@
 // src/components/Footer/Footer.jsx
 import { Link } from 'react-router-dom'
-import './Footer.css' // Import the CSS for the Footer
+import './footer.css' // Import the CSS for the Footer
 const Footer = () => {
     return (
         <>
