@@ -8,7 +8,7 @@ import NotFoundPage from "./pages/NotFoundPage"
 import ChatbotComponent from "./components/Chatbot/ChatbotComponents"
 import Footer from "./components/Footer/Footer"
 import { useState } from "react"
-import DeveloperInfoPopup from "./components/Developerinfo/DeveloperinfoPopup"
+import DeveloperinfoPopup from "./components/Developerinfo/DeveloperInfoPopup"
 
 const App = () => {
 
@@ -25,7 +25,7 @@ const App = () => {
       <>
       <div>
         {/* Your main application content */}
-        <DeveloperInfoPopup
+        <DeveloperinfoPopup
           show={showPopup}
           onClose={handleClosePopup}
           studentName="Karan Krishnat Chougale"
